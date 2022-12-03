@@ -18,7 +18,7 @@ By Xiao Tan, Huaian Chen, Yan Kan, Jinjin Zheng, Yi Jin, Enhong Chen
 We provide the dataset at [百度网盘]. 
 
 ## Model
-We provide the trained models at [百度网盘].
+We provide the trained models at [百度网盘](https://pan.baidu.com/s/1X1zzfEbOnzunDnEjPxorYg), code: hfmr.
 
 ## Test
   ```
