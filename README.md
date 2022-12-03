@@ -17,6 +17,9 @@ By Xiao Tan, Huaian Chen, Yan Kan, Jinjin Zheng, Yi Jin, Enhong Chen
 ## Dataset
 We provide the dataset at [百度网盘]. 
 
+## Model
+We provide the trained models at [百度网盘].
+
 ## Test
   ```
   python test.py
