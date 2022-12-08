@@ -11,7 +11,7 @@ By Xiao Tan, Huaian Chen, Yan Kan, Jinjin Zheng, Yi Jin, Enhong Chen
 
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 - [PyTorch](https://pytorch.org/)
-- NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
+- opencv-python 4.5.3.56
 
 
 ## Dataset
