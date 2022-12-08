@@ -1,6 +1,6 @@
 # Dynamic MEF dataset & Deep Dynamic MEF (DDMEF) framework
 ##  Deep Multi-Exposure Image Fusion for Dynamic Scenes
-By Xiao Tan, Huaian Chen, Yan Kan, Jinjin Zheng, Yi Jin, Enhong Chen
+By Xiao Tan, Huaian Chen, Rui Zhang, Qihan Wang, Yan Kan, Jinjin Zheng, Yi Jin, Enhong Chen
 
 ### Highlights
 - **the first multi-exposure image dataset of dynamic scenes**: containing multi-exposure images with motions and their corresponding high-quality reference images
