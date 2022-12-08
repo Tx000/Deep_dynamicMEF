@@ -53,6 +53,7 @@ for idx in range(nScenes):
     enhanced1_H = np.transpose(np.squeeze(enhanced1_H.data.cpu().numpy()), axes=(1, 2, 0)) * 255
     aligned1_L, h = alignImages(enhanced1_L.astype(np.uint8), enhanced1_H.astype(np.uint8), input1_L)
     cv2.imwrite(os.path.join(args.results_dir, 'aligned_{:03d}-1_L.png'.format(idx + 1)), aligned1_L)
+    # If the shift > 500, DDMEF adopt original image as the input of the fusion network.
     if abs(h[0, 2]) > 500 or abs(h[1, 2]) > 500:
         print('error h1: {}'.format(h))
         aligned1_L = input1_L
