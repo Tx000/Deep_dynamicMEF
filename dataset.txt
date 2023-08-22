@@ -1,0 +1,18 @@
+
+For the proposed dataset and the commonly used dataset [37], we took images with the lowest and highest exposures as inputs. 
+
+For the datasets [1, 23] that include a very large dynamic range, we need to ensure the two selected images contain most information of the scene. 
+Therefore, we set a rule to select over-/under-exposed images as follows:
+(1) transform all images to gray images; 
+(2) obtain effective pixel maps of each image by:
+f(x) = 0 if x < 5 or x > 250; f(x) = 1 for others;
+(3) perform OR operation between two images in a pixel-wise manner to obtain a binary map to show the effective area covered by the two images; 
+(4) count the effective pixels and take the images with the max effective area as over-/under-exposed images.
+
+
+[1] P. Sen, N. K. Kalantari, M. Yaesoubi, S. Darabi, D. B. Goldman, and E. Shechtman, “Robust patch-based hdr reconstruction
+of dynamic scenes.” ACM Trans. Graph., vol. 31, no. 6, pp. 1–11, 2012.
+[23] K. Ma, Z. Duanmu, H. Yeganeh, and Z. Wang, “Multi-exposure image fusion by optimizing a structural similarity index,”
+IEEE Trans. Comput. Imag., vol. 4, no. 1, pp. 60–72, 2017.
+[37] Y. Fang, H. Zhu, K. Ma, Z. Wang, and S. Li, “Perceptual evaluation for multi-exposure image fusion of dynamic scenes,” 
+IEEE Trans. ImageProcess., vol. 29, pp. 1127–1138, 2020.
